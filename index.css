@@ -1,110 +1,31 @@
-body{
-	margin: 0;
+.container{
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
 }
 
-.data{
-	clip-path: polygon(0 0, 100% 0%, 56% 100%, 0 100%);
-	background: #05070A;
-	width: 65%;
-	height: 100%;
-	position: fixed;	
-	background: url(http://www.rnib.org.uk/sites/default/files/cta/IB_7_RNIB%20Community%20Access%20Service.jpg);
-	background-size: cover;
-	z-index: 99;
+
+.main{
+  position:  relative;
+  color: #fff;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  font-size:45px ;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  justify-content: center;
 }
 
 .home{
-	font-size: 40px;
-	margin-left:10% ;
-	margin-top:220px ;
-	z-index: 101;
-}
 
-.h2{
-	font-size: 25px;
-	margin-left:10% ;
-	margin-top:10px ;
-	color: #EEB902;
-}
-
-.datacover{
-	clip-path: polygon(0 0, 100% 0%, 56% 100%, 0 100%);
-	background: rgba(5, 7, 10, 0.8);
-	width: 65%;
-	height: 100%;
-	position: fixed;	
-	background-size: cover;
-	z-index: 100;
-	color: 	#fff;
-	font-family: work sans;
-
-}
-
-.button{
-	font-size: 20px;
-	border: 1px solid #fff;
-	padding: 9px 0px;
-	transition: all 0.5s ease;
-	width:150px ;
-	margin-left:10% ;
-	border-radius: 100px;
-	margin-top:50px	;
-	cursor: pointer;
-	position: relative;
-	overflow: hidden;
+  margin-right: 20px;
 }
 
 .im{
-	width: 500px;
-	height: 500px;
-	position: fixed;
-	right: 4%;
-	top: 15%;
-
-}
-
-.aboutus{
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	background: #2D7DD2;
-	top: 100%;
-	z-index: 98;
-	color: 	#fff;
-	font-family: work sans;
-	top: 100%;
-	transition: all 0.5s ease;
-}
-
-.content{
-
-}
-
-.al{
-	font-size: 50px;
-	position: fixed;
-	left:59%;
-	margin-top: 13%;
-}
-
-.c2{
-	font-size: 20px;
-	font-family: open sans;
-	font-weight: lighter;
-	margin-top: 20px;
-	margin-right: 20px;
-	
-}
-
-.ext{
-	width: 200%;
-	margin:0 40px ;
-}
-.slide{
-	position: relative;
-	width: 100%;
-	height: 100%;
-	display: flex;
-	left: 0;
-	transition: all 0.5s ease;
+  width: 300px ;
+  margin-left: 20px;
 }
