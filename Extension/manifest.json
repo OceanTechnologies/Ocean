@@ -1,0 +1,28 @@
+{
+	"name":"Ocean",
+	"description":"Color pallet for the Color blind",
+	"version":"1.0",
+
+	"manifest_version":2,
+
+	"browser_action":{
+		"default_icon":"icon.png",
+		"default_popup":"popup.html"
+	},
+
+	"permissions":[
+		"tabs",
+		"storage",
+		"activeTab"
+	],
+
+	"content_scripts":[
+		{
+			"matches":["https://*/*", "http://*/*","file:///*"],
+			"js":["jquery.min.js", "myscript.js"],
+			"css":["empty.css"]
+		}
+	],
+
+	"content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'"
+}

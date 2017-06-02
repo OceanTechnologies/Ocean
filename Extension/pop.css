@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+
+}
+
+#a{
+	width: 170px;
+	height: 80px;
+	background: none;
+}
+
+.buttons{
+	display: flex;
+	float: right;
+	margin-top:10px ;
+}
+
+.circ{
+	width: 25px;
+	height: 25px;
+	background: blue;
+	border-radius: 100%;
+	margin: 0 5px;
+}
+
+
+.bu{
+	margin-top: 8px;
+	border: 1px solid #659B5E;
+	padding: 5px;
+	border-radius: 5px;	
+	width: 25px;
+	text-align: center;
+	color: #659B5E;
+	cursor: pointer;
+}
+
+.pres{
+	display: flex;
+	justify-content: space-around;
+}
+
